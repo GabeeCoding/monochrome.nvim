@@ -100,7 +100,7 @@ local theme = lush(function(injected_functions)
     NormalFloat    { Normal }, -- Normal text in floating windows.
     FloatBorder    { }, -- Border of floating windows.
     FloatTitle     { }, -- Title of floating windows.
-    NormalNC       { }, -- normal text in non-current windows
+    NormalNC       { bg="#000000" }, -- normal text in non-current windows
     Pmenu          { }, -- Popup menu: Normal item.
     PmenuSel       { }, -- Popup menu: Selected item.
     PmenuKind      { }, -- Popup menu: Normal item "kind"
