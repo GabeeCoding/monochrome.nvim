@@ -82,8 +82,8 @@ local theme = lush(function(injected_functions)
     Folded         { }, -- Line used for closed folds
     FoldColumn     { }, -- 'foldcolumn'
     SignColumn     { }, -- Column where |signs| are displayed
-    IncSearch      { }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-    Substitute     { }, -- |:substitute| replacement text highlighting
+    IncSearch      { bg="#FFF000", fg="#000000" }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    Substitute     { bg="#FFF000", fg="#000000" }, -- |:substitute| replacement text highlighting
     LineNr         { }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     LineNrAbove    { }, -- Line number for when the 'relativenumber' option is set, above the cursor line
     LineNrBelow    { }, -- Line number for when the 'relativenumber' option is set, below the cursor line
@@ -111,7 +111,7 @@ local theme = lush(function(injected_functions)
     PmenuThumb     { }, -- Popup menu: Thumb of the scrollbar.
     Question       { }, -- |hit-enter| prompt and yes/no questions
     QuickFixLine   { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
-    Search         { }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
+    Search         { bg="#FFF000", fg="#000000"}, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
     SpecialKey     { }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' whitespace. |hl-Whitespace|
     SpellBad       { }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
     SpellCap       { }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
